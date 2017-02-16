@@ -1,9 +1,0 @@
-label {
-    font-size: 16px;
-}
-.card.horizontal .card-image img {
-    min-height: 217px;
-    max-width: 326px;
-    max-height: 217px;
-    min-width: 326px;
-}
