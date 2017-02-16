@@ -1,6 +1,5 @@
 h1 {
     margin: 0 70px;
-    width: 240px;
     font-size: 48px;
     line-height: 64px;
 }
@@ -14,5 +13,9 @@ nav{
         background-color: mediumvioletred
 }
 .logo {
+width: 35px;
+    vertical-align: sub; 
+}
+h1.left {
     
 }
