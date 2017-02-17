@@ -310,9 +310,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var GreetingCardComponent = (function () {
     function GreetingCardComponent() {
+        this.isBlured = true;
+        this.name = '';
     }
     GreetingCardComponent.prototype.ngOnInit = function () {
         console.log("jvjgj" + this.wish);
+    };
+    GreetingCardComponent.prototype.getName = function (wish) {
+        if (this.name == wish.name) {
+            this.isBlured = false;
+        }
     };
     __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["x" /* Input */])(), 
@@ -424,7 +431,7 @@ exports = module.exports = __webpack_require__(63)();
 
 
 // module
-exports.push([module.i, "label {\r\n    font-size: 16px;\r\n}\r\n.card.horizontal .card-image img {\r\n    min-height: 217px;\r\n    max-width: 326px;\r\n    max-height: 217px;\r\n    min-width: 326px;\r\n}", ""]);
+exports.push([module.i, "label {\r\n    font-size: 16px;\r\n}\r\n.card.horizontal .card-image img {\r\n    min-height: 217px;\r\n    max-width: 326px;\r\n    max-height: 217px;\r\n    min-width: 326px;\r\n}\r\n.blur-image {\r\n    -webkit-filter: blur(15px);\r\n            filter: blur(15px);\r\n}\r\ninput {\r\n    margin-bottom: 0px;\r\n}", ""]);
 
 // exports
 
@@ -498,21 +505,21 @@ module.exports = "<app-header></app-header>\r\n<router-outlet></router-outlet>\r
 /***/ 663:
 /***/ (function(module, exports) {
 
-module.exports = "  <div class=\"col s12 m6 l6\">\n    <div class=\"card horizontal\">\n      <div class=\"card-image\">\n        <img [src]=\"wish.src\"/>\n      </div>\n      <div class=\"card-stacked\">\n        <div class=\"card-content\">\n          <span>{{wish.msg}}</span>\n        </div>\n        <div class=\"card-action\">\n          <label>{{wish.name}}</label>\n        </div>\n      </div>\n    </div>\n  </div>"
+module.exports = "  <div class=\"col s12 m6 l6\">\n    <div class=\"card horizontal\">\n      <div class=\"card-image\">\n        <img [src]=\"wish.src\" [ngClass]=\"{'blur-image': isBlured}\"/>\n      </div>\n      <div class=\"card-stacked\">\n        <div class=\"card-content\">\n          <span>{{wish.msg}}</span>\n        </div>\n        <div class=\"card-action\">\n          <input type=\"text\" [(ngModel)]=\"name\" (keyup)=\"getName(wish)\">\n        </div>\n      </div>\n    </div>\n  </div>"
 
 /***/ }),
 
 /***/ 664:
 /***/ (function(module, exports) {
 
-module.exports = "<nav>\n  <h1 class=\"left\">\n    <img class=\"logo\" src=\"assets/images/Potato.svg.png\">\n    <a class=\"pointer\" routerLink=\"/home\">Ansa Davis</a>\n  </h1>\n  <ul class=\"right\">\n    <li class=\"pointer\" routerLink=\"/home\">Home</li>\n    <li class=\"pointer\" routerLink=\"/wishes\">Wishes</li>\n    <li class=\"pointer\"></li>\n  </ul>\n</nav>"
+module.exports = "<nav>\n  <a href=\"#\" data-activates=\"mobile-demo\" class=\"button-collapse\"><i class=\"material-icons\">menu</i></a>\n  <h1 class=\"left\">\n    <img class=\"logo\" src=\"assets/images/Potato.svg.png\">\n    <a class=\"pointer\" routerLink=\"/home\">Ansa Davis</a>\n  </h1>\n  <ul class=\"right\">\n    <li class=\"pointer\" routerLink=\"/home\">Home</li>\n    <li class=\"pointer\" routerLink=\"/wishes\">Wishes</li>\n    <li class=\"pointer\"></li>\n  </ul>\n</nav>"
 
 /***/ }),
 
 /***/ 665:
 /***/ (function(module, exports) {
 
-module.exports = "      <div class=\"row\">\n        <div class=\"col s12 m7 l12\">\n          <div class=\"card\">\n            <div class=\"card-image\">\n              <img src=\"assets/images/ansa3.jpg\">\n              <span class=\"card-title\">Ansa Davis</span>\n            </div>\n            <div class=\"card-content\">\n              <p>The technical champ who dances her way into anything and comes out with flying colors!. This aloo hogging girl is a go getter with a pretty smile on her face.</p>\n            </div>\n            <div class=\"card-action\">\n              <a href=\"#\">This is a link</a>\n            </div>\n          </div>\n        </div>\n      </div>\n"
+module.exports = "      <div class=\"row\">\n        <div class=\"col s12 m7 l12\">\n          <div class=\"card\">\n            <div class=\"card-image\">\n              <img src=\"assets/images/ansa3.jpg\">\n              <span class=\"card-title\">Ansa Davis</span>\n            </div>\n            <div class=\"card-content\">\n              <p>The technical champ who dances her way into anything and comes out with flying colors!. This aloo hogging girl is a go getter with a pretty smile on her face.</p>\n            </div>\n            <div class=\"card-action\">\n              <a routerLink=\"/wishes\">Wishes</a>\n            </div>\n          </div>\n        </div>\n      </div>\n"
 
 /***/ }),
 
