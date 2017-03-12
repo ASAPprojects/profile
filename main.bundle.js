@@ -1,10 +1,11 @@
 webpackJsonp([1,4],{
 
-/***/ 412:
+/***/ 414:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ng2_bootstrap_carousel__ = __webpack_require__(427);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ImageFrameComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -16,16 +17,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
 var ImageFrameComponent = (function () {
     function ImageFrameComponent() {
     }
     ImageFrameComponent.prototype.ngOnInit = function () {
     };
     ImageFrameComponent = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
             selector: 'app-image-frame',
-            template: __webpack_require__(665),
-            styles: [__webpack_require__(659)]
+            template: __webpack_require__(677),
+            styles: [__webpack_require__(664)],
+            providers: [{ provide: __WEBPACK_IMPORTED_MODULE_1_ng2_bootstrap_carousel__["b" /* CarouselConfig */], useValue: { interval: 5000, noPause: true } }]
         }), 
         __metadata('design:paramtypes', [])
     ], ImageFrameComponent);
@@ -35,7 +38,7 @@ var ImageFrameComponent = (function () {
 
 /***/ }),
 
-/***/ 413:
+/***/ 415:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -56,31 +59,31 @@ var WishesComponent = (function () {
         this.wishesArray = [
             {
                 name: 'Arjun',
-                msg: 'Here is the msg!...',
+                msg: 'Happy birthday Ansa',
                 src: 'assets/images/arjun.jpg'
             },
             { name: 'Aarish',
-                msg: 'Here is the msg!...',
+                msg: 'Happy birthday to a very special person from special track, you deserve a very special life ahead.. cheers !!',
                 src: 'assets/images/aarish.jpg'
             },
             { name: 'Abhishek',
-                msg: 'Here is the msg!...',
+                msg: 'Happy birthday Ansa',
                 src: 'assets/images/arjun.jpg'
             },
             { name: 'Preeja',
-                msg: 'Here is the msg!...',
+                msg: 'Happy birthday to the most beautiful girl. Thank you soo much for being you:) And we do miss you a lot. And i would like to thank you for all those wonderful gifts you create on each of our bdays to make it special :) love you so much',
                 src: 'assets/images/preeja.jpg'
             },
             { name: 'Pooja',
-                msg: 'Here is the msg!...',
+                msg: 'Happy birthday darling.. My infy bangalore journey has been made special by you in every step.. You are an amazing roommate friend teammate and most of all an amazing human being. I have learnt a hell lot of things from you.. You ll always be my moral support.. Even if u dont know it :) your being there is enough.. :D Loads of love to the prettiest girl I know.. Wishing u love luck health wealth and wisdom on this birthday... May God bless you my dear :) :)',
                 src: 'assets/images/arjun.jpg'
             },
             { name: 'Puja',
-                msg: 'Here is the msg!...',
+                msg: 'Dear Ansa, Wish you a very happy and joyful life ahead. May all your dreams come true. Happy Birthday !!!',
                 src: 'assets/images/puja.jpg'
             },
             { name: 'Raghu',
-                msg: 'Here is the msg!...',
+                msg: 'Yahi dua karta hu khuda se mai, Apki zindagi mein koi gam na ho, Janamdin par mile hazaaro khusiyaan, Chahe unme shaamil hum na ho',
                 src: 'assets/images/raghu.jpg'
             },
             { name: 'Selva',
@@ -92,7 +95,7 @@ var WishesComponent = (function () {
                 src: 'assets/images/venky.jpg'
             },
             { name: 'Vishnu',
-                msg: 'Here is the msg!...',
+                msg: 'Happy birthdayy Ansa chechii. :) Sneham niranja Janmadinaashamsakal',
                 src: 'assets/images/vishnu.jpg'
             }
         ];
@@ -100,10 +103,10 @@ var WishesComponent = (function () {
     WishesComponent.prototype.ngOnInit = function () {
     };
     WishesComponent = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
             selector: 'app-wishes',
-            template: __webpack_require__(666),
-            styles: [__webpack_require__(660)]
+            template: __webpack_require__(678),
+            styles: [__webpack_require__(665)]
         }), 
         __metadata('design:paramtypes', [])
     ], WishesComponent);
@@ -113,7 +116,7 @@ var WishesComponent = (function () {
 
 /***/ }),
 
-/***/ 438:
+/***/ 443:
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -122,20 +125,20 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 438;
+webpackEmptyContext.id = 443;
 
 
 /***/ }),
 
-/***/ 439:
+/***/ 444:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(565);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(598);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(602);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(570);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(603);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(607);
 
 
 
@@ -148,14 +151,14 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dyna
 
 /***/ }),
 
-/***/ 596:
+/***/ 601:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(585);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__image_frame_image_frame_component__ = __webpack_require__(412);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__wishes_wishes_component__ = __webpack_require__(413);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(590);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__image_frame_image_frame_component__ = __webpack_require__(414);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__wishes_wishes_component__ = __webpack_require__(415);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppRoutingModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -191,7 +194,7 @@ var AppRoutingModule = (function () {
 
 /***/ }),
 
-/***/ 597:
+/***/ 602:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -211,10 +214,10 @@ var AppComponent = (function () {
     function AppComponent() {
     }
     AppComponent = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
             selector: 'app-root',
-            template: __webpack_require__(662),
-            styles: [__webpack_require__(656)]
+            template: __webpack_require__(674),
+            styles: [__webpack_require__(661)]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
@@ -224,7 +227,7 @@ var AppComponent = (function () {
 
 /***/ }),
 
-/***/ 598:
+/***/ 603:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -232,13 +235,14 @@ var AppComponent = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_material__ = __webpack_require__(549);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(597);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__header_header_header_component__ = __webpack_require__(600);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__image_frame_image_frame_component__ = __webpack_require__(412);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__app_routing_module__ = __webpack_require__(596);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__greeting_card_greeting_card_component__ = __webpack_require__(599);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__wishes_wishes_component__ = __webpack_require__(413);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_material__ = __webpack_require__(554);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_ng2_bootstrap_carousel__ = __webpack_require__(427);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(602);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__header_header_header_component__ = __webpack_require__(605);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__image_frame_image_frame_component__ = __webpack_require__(414);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__app_routing_module__ = __webpack_require__(601);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__greeting_card_greeting_card_component__ = __webpack_require__(604);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__wishes_wishes_component__ = __webpack_require__(415);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -260,27 +264,29 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var AppModule = (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["b" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* AppComponent */],
-                __WEBPACK_IMPORTED_MODULE_6__header_header_header_component__["a" /* HeaderComponent */],
-                __WEBPACK_IMPORTED_MODULE_7__image_frame_image_frame_component__["a" /* ImageFrameComponent */],
-                __WEBPACK_IMPORTED_MODULE_9__greeting_card_greeting_card_component__["a" /* GreetingCardComponent */],
-                __WEBPACK_IMPORTED_MODULE_10__wishes_wishes_component__["a" /* WishesComponent */]
+                __WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* AppComponent */],
+                __WEBPACK_IMPORTED_MODULE_7__header_header_header_component__["a" /* HeaderComponent */],
+                __WEBPACK_IMPORTED_MODULE_8__image_frame_image_frame_component__["a" /* ImageFrameComponent */],
+                __WEBPACK_IMPORTED_MODULE_10__greeting_card_greeting_card_component__["a" /* GreetingCardComponent */],
+                __WEBPACK_IMPORTED_MODULE_11__wishes_wishes_component__["a" /* WishesComponent */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
                 __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* HttpModule */],
                 __WEBPACK_IMPORTED_MODULE_4__angular_material__["a" /* MaterialModule */],
-                __WEBPACK_IMPORTED_MODULE_8__app_routing_module__["a" /* AppRoutingModule */]
+                __WEBPACK_IMPORTED_MODULE_9__app_routing_module__["a" /* AppRoutingModule */],
+                __WEBPACK_IMPORTED_MODULE_5_ng2_bootstrap_carousel__["a" /* CarouselModule */].forRoot()
             ],
             providers: [],
-            bootstrap: [__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* AppComponent */]]
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* AppComponent */]]
         }), 
         __metadata('design:paramtypes', [])
     ], AppModule);
@@ -290,12 +296,12 @@ var AppModule = (function () {
 
 /***/ }),
 
-/***/ 599:
+/***/ 604:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__models_wishes_model__ = __webpack_require__(601);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__models_wishes_model__ = __webpack_require__(606);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GreetingCardComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -322,14 +328,14 @@ var GreetingCardComponent = (function () {
         }
     };
     __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["x" /* Input */])(), 
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["f" /* Input */])(), 
         __metadata('design:type', (typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__models_wishes_model__["a" /* WishesArray */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__models_wishes_model__["a" /* WishesArray */]) === 'function' && _a) || Object)
     ], GreetingCardComponent.prototype, "wish", void 0);
     GreetingCardComponent = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
             selector: 'app-greeting-card',
-            template: __webpack_require__(663),
-            styles: [__webpack_require__(657)]
+            template: __webpack_require__(675),
+            styles: [__webpack_require__(662)]
         }), 
         __metadata('design:paramtypes', [])
     ], GreetingCardComponent);
@@ -340,7 +346,7 @@ var GreetingCardComponent = (function () {
 
 /***/ }),
 
-/***/ 600:
+/***/ 605:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -362,10 +368,10 @@ var HeaderComponent = (function () {
     HeaderComponent.prototype.ngOnInit = function () {
     };
     HeaderComponent = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
             selector: 'app-header',
-            template: __webpack_require__(664),
-            styles: [__webpack_require__(658)]
+            template: __webpack_require__(676),
+            styles: [__webpack_require__(663)]
         }), 
         __metadata('design:paramtypes', [])
     ], HeaderComponent);
@@ -375,7 +381,7 @@ var HeaderComponent = (function () {
 
 /***/ }),
 
-/***/ 601:
+/***/ 606:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -389,7 +395,7 @@ var WishesArray = (function () {
 
 /***/ }),
 
-/***/ 602:
+/***/ 607:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -405,7 +411,7 @@ var environment = {
 
 /***/ }),
 
-/***/ 656:
+/***/ 661:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(63)();
@@ -423,120 +429,120 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 657:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(63)();
-// imports
-
-
-// module
-exports.push([module.i, "label {\r\n    font-size: 16px;\r\n}\r\n.card.horizontal .card-image img {\r\n    min-height: 217px;\r\n    max-width: 326px;\r\n    max-height: 217px;\r\n    min-width: 326px;\r\n}\r\n.blur-image {\r\n    -webkit-filter: blur(15px);\r\n            filter: blur(15px);\r\n}\r\ninput {\r\n    margin-bottom: 0px;\r\n}", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 658:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(63)();
-// imports
-
-
-// module
-exports.push([module.i, "h1 {\r\n    margin: 0 70px;\r\n    font-size: 48px;\r\n    line-height: 64px;\r\n}\r\nul{\r\n    margin: 0 70px;\r\n}\r\nli {\r\n    padding: 0 15px;\r\n}\r\nnav{\r\n        background-color: mediumvioletred\r\n}\r\n.logo {\r\nwidth: 35px;\r\n    vertical-align: sub; \r\n}\r\nh1.left {\r\n    \r\n}", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 659:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(63)();
-// imports
-
-
-// module
-exports.push([module.i, "img {\r\n    max-height: 400px;\r\n}", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 660:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(63)();
-// imports
-
-
-// module
-exports.push([module.i, "h2.header {\r\n        margin-left: 10px;\r\n}", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
 /***/ 662:
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = "<app-header></app-header>\r\n<router-outlet></router-outlet>\r\n<div >\r\nApp works\r\n</div>"
+exports = module.exports = __webpack_require__(63)();
+// imports
+
+
+// module
+exports.push([module.i, "label {\r\n    font-size: 16px;\r\n}\r\n.card.horizontal .card-image img {\r\n    min-height: 217px;\r\n    max-width: 326px;\r\n    max-height: 217px;\r\n    min-width: 326px;\r\n}\r\n.blur-image {\r\n    -webkit-filter: blur(15px);\r\n            filter: blur(15px);\r\n}\r\ninput {\r\n    margin-bottom: 0px;\r\n}\r\n.card-content {\r\n    font-family: 'Pacifico', cursive;\r\n}", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
 
 /***/ }),
 
 /***/ 663:
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = "  <div class=\"col s12 m6 l6\">\n    <div class=\"card horizontal\">\n      <div class=\"card-image\">\n        <img [src]=\"wish.src\" [ngClass]=\"{'blur-image': isBlured}\"/>\n      </div>\n      <div class=\"card-stacked\">\n        <div class=\"card-content\">\n          <span>{{wish.msg}}</span>\n        </div>\n        <div class=\"card-action\">\n          <input type=\"text\" [(ngModel)]=\"name\" (keyup)=\"getName(wish)\">\n        </div>\n      </div>\n    </div>\n  </div>"
+exports = module.exports = __webpack_require__(63)();
+// imports
+
+
+// module
+exports.push([module.i, "h1 {\r\n    margin: 0 70px;\r\n    font-size: 40px;\r\n    line-height: 64px;\r\n}\r\nul{\r\n    margin: 0 70px;\r\n}\r\nli {\r\n    padding: 0 15px;\r\n}\r\nnav{\r\n        background-color: #9C27B0;\r\n}\r\n.logo {\r\n    width: 26px;\r\n    vertical-align: middle; \r\n}\r\na:focus, a:hover {\r\n    color: inherit;\r\n    text-decoration: none;\r\n}", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
 
 /***/ }),
 
 /***/ 664:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(63)();
+// imports
+
+
+// module
+exports.push([module.i, "img {\r\n    max-height: 460px;\r\n}\r\n.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {\r\n    color: #9C27B0;\r\n}\r\n.card .card-image .card-title:hover {\r\n    color: #9C27B0;\r\n}\r\n.card .card-content {\r\n    padding: 15px;\r\n    border-radius: 0 0 2px 2px;\r\n}\r\n.card .card-action {\r\n    position: relative;\r\n    background-color: inherit;\r\n    border-top: 1px solid rgba(160,160,160,0.2);\r\n    padding: 16px 15px;\r\n}\r\n.max-height {\r\n    max-height: 500px;\r\n}\r\n.carousel-caption {\r\n    font-family: 'Pacifico', cursive;\r\n}\r\n.carousel-caption h3 {\r\n    font-size: 3em;\r\n}\r\n.carousel-caption p {\r\n    font-size: 2em;\r\n    color: black;\r\n}", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 665:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(63)();
+// imports
+
+
+// module
+exports.push([module.i, "h2.header {\r\n        margin-left: 10px;\r\n        color: white;\r\n}\r\n.card .card-content {\r\n    padding: 15px;\r\n    border-radius: 0 0 2px 2px;\r\n}\r\n.card .card-action {\r\n    position: relative;\r\n    background-color: inherit;\r\n    border-top: 1px solid rgba(160,160,160,0.2);\r\n    padding: 16px 15px;\r\n}", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 674:
+/***/ (function(module, exports) {
+
+module.exports = "<app-header></app-header>\r\n<router-outlet></router-outlet>"
+
+/***/ }),
+
+/***/ 675:
+/***/ (function(module, exports) {
+
+module.exports = "  <div class=\"col s12 m6 l6\">\n    <div class=\"card horizontal\">\n      <div class=\"card-image col s12\">\n        <img [src]=\"wish.src\" [ngClass]=\"{'blur-image': false}\"/>\n      </div>\n      <div class=\"card-stacked col s12\">\n        <div class=\"card-content\">\n          <span>{{wish.msg}}</span>\n        </div>\n        <div class=\"card-action\">\n          <input type=\"text\" [(ngModel)]=\"name\" (keyup)=\"getName(wish)\">\n        </div>\n      </div>\n    </div>\n  </div>"
+
+/***/ }),
+
+/***/ 676:
 /***/ (function(module, exports) {
 
 module.exports = "<nav>\n  <a href=\"#\" data-activates=\"mobile-demo\" class=\"button-collapse\"><i class=\"material-icons\">menu</i></a>\n  <h1 class=\"left\">\n    <img class=\"logo\" src=\"assets/images/Potato.svg.png\">\n    <a class=\"pointer\" routerLink=\"/home\">Ansa Davis</a>\n  </h1>\n  <ul class=\"right\">\n    <li class=\"pointer\" routerLink=\"/home\">Home</li>\n    <li class=\"pointer\" routerLink=\"/wishes\">Wishes</li>\n    <li class=\"pointer\"></li>\n  </ul>\n</nav>"
 
 /***/ }),
 
-/***/ 665:
+/***/ 677:
 /***/ (function(module, exports) {
 
-module.exports = "      <div class=\"row\">\n        <div class=\"col s12 m7 l12\">\n          <div class=\"card\">\n            <div class=\"card-image\">\n              <img src=\"assets/images/ansa3.jpg\">\n              <span class=\"card-title\">Ansa Davis</span>\n            </div>\n            <div class=\"card-content\">\n              <p>The technical champ who dances her way into anything and comes out with flying colors!. This aloo hogging girl is a go getter with a pretty smile on her face.</p>\n            </div>\n            <div class=\"card-action\">\n              <a routerLink=\"/wishes\">Wishes</a>\n            </div>\n          </div>\n        </div>\n      </div>\n"
+module.exports = "      <div class=\"row margin-none\">\n        <div class=\"col s12 m7 l12 padding-none\">\n          <div class=\"card margin-none\">\n            <div class=\"card-image\">\n              <img src=\"assets/images/ansa3.jpg\">\n              <span class=\"card-title\">Ansa Davis</span>\n            </div>\n            <div class=\"card-content\">\n              <p>The technical champ who dances her way into anything and comes out with flying colors! This aloo hogging girl is a go getter with a pretty smile on her face.</p>\n            </div>\n            <div class=\"card-action\">\n              <a routerLink=\"/wishes\">Wishes</a>\n            </div>\n          </div>\n        </div>\n      </div>\n<div class=\"row\">\n<carousel>\n  <slide>\n    <img src=\"assets/images/ansa1.jpg\" alt=\"First slide\" class=\"max-height\">\n    <div class=\"carousel-caption\">\n      <h3>Thiruvathara</h3>\n      <p>Come onam, and you can see her dance like a peacock with a lot of grace and elegance</p>\n    </div>\n  </slide>\n  <slide>\n    <img src=\"assets/images/ansa2.jpg\" alt=\"Second slide\" class=\"max-height\">\n    <div class=\"carousel-caption\">\n      <h3>Bharatanatyam</h3>\n      <p>You need someone to step into a classic dance attire dipicting various emotions through expressions, then she is the one you should call.</p>\n    </div>\n  </slide>\n  <slide>\n    <img src=\"assets/images/ansa4.jpg\" alt=\"Third slide\" class=\"max-height\">\n    <div class=\"carousel-caption\">\n      <h3>Moral support</h3>\n      <p>You feel confident, want to feel like there is always someone by your side... she's there isn't she?!</p>\n    </div>\n  </slide>\n    <slide>\n    <img src=\"assets/images/ansa5.jpg\" alt=\"Third slide\" class=\"max-height\">\n    <div class=\"carousel-caption\">\n      <h3>Smile</h3>\n      <p>People say smile is the prettiest thing on face,... need i say anything?!</p>\n    </div>\n  </slide>\n    <slide>\n    <img src=\"assets/images/ansa7.jpg\" alt=\"Third slide\" class=\"max-height\">\n    <div class=\"carousel-caption\">\n      <h3>Simplicity</h3>\n      <p>Well want can i say? the picture says it all</p>\n    </div>\n  </slide>\n</carousel>\n</div>"
 
 /***/ }),
 
-/***/ 666:
+/***/ 678:
 /***/ (function(module, exports) {
 
-module.exports = "<h2 class=\"header\">Infy ke dost</h2>\n<div class=\"row\">\n<div *ngFor=\"let wish of wishesArray\">\n  <app-greeting-card [wish]=\"wish\"></app-greeting-card>\n</div>\n</div>"
+module.exports = "<div class=\"row\">\n  <h2 class=\"header\">Infy ke dost</h2>\n<div *ngFor=\"let wish of wishesArray\">\n  <app-greeting-card [wish]=\"wish\"></app-greeting-card>\n</div>\n</div>"
 
 /***/ }),
 
-/***/ 711:
+/***/ 724:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(439);
+module.exports = __webpack_require__(444);
 
 
 /***/ })
 
-},[711]);
+},[724]);
 //# sourceMappingURL=main.bundle.js.map

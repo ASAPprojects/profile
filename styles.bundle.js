@@ -1,15 +1,15 @@
 webpackJsonp([2,4],{
 
-/***/ 441:
+/***/ 446:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(655);
+var content = __webpack_require__(660);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__(709)(content, {});
+var update = __webpack_require__(721)(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -84,7 +84,7 @@ module.exports = function() {
 
 /***/ }),
 
-/***/ 655:
+/***/ 660:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(63)();
@@ -92,14 +92,14 @@ exports = module.exports = __webpack_require__(63)();
 
 
 // module
-exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\r\n.pointer {\r\n     cursor: pointer;\r\n}", ""]);
+exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\r\n.pointer {\r\n     cursor: pointer;\r\n}\r\n\r\n.birthday-overlay {\r\n    position: fixed;\r\n    top: 0px;\r\n    right: 0px;\r\n    bottom: 0px;\r\n    left: 0px;\r\n    background: lightcoral;\r\n    z-index: 2;\r\n}\r\n.birthday-overlay h1{\r\n    text-align: left;\r\n    font-size: 3em;\r\n    margin-left: 20px;\r\n        font-family: cursive;\r\n    font-style: italic;\r\n}\r\n.cover-image {\r\n    background-image: url(/assets/images/cake.png),url(" + __webpack_require__(722) + ");\r\n    background-repeat: no-repeat;\r\n    background-blend-mode: screen, darken;\r\n    background-size: cover;\r\n}\r\n.overlay-image-wrap {\r\n    top: 6%;\r\n    left: 82%;\r\n    position: absolute;\r\n}\r\n .overlay-image-wrap img {\r\n        border-radius: 50%;\r\n        width: 150px;\r\n        height: 150px;\r\n    }\r\n.birthday-wish {\r\n    -webkit-animation-name: colorChange;\r\n            animation-name: colorChange;\r\n    -webkit-animation-duration: 4s;\r\n            animation-duration: 4s;\r\n    -webkit-animation-iteration-count: infinite;\r\n            animation-iteration-count: infinite;\r\n}\r\n@-webkit-keyframes colorChange {\r\n    0%   {color:#2196F3;-webkit-transform: scale(0.3);}\r\n    30%   {color:#2196F3;-webkit-transform: scale(0.6);}\r\n    60%   {color:#2196F3;-webkit-transform: scale(0.8);}\r\n    100% {color:#90CAF9;-webkit-transform: scale(1);}\r\n}\r\n@keyframes colorChange {\r\n    0%   {color:#2196F3;-webkit-transform: scale(0.3);}\r\n    30%   {color:#2196F3;-webkit-transform: scale(0.6);}\r\n    60%   {color:#2196F3;-webkit-transform: scale(0.8);}\r\n    100% {color:#90CAF9;-webkit-transform: scale(1);}\r\n}\r\n.padding-none {\r\n    padding: 0px !important;\r\n}\r\n.margin-none {\r\n    margin: 0px !important;\r\n}\r\n.carousel .carousel-item {\r\n    width: 100% !important;\r\n    height: 100% !important;\r\n}\r\n.carousel.slide {\r\n    height: 100%;\r\n    max-height: 500px;\r\n}", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 709:
+/***/ 721:
 /***/ (function(module, exports) {
 
 /*
@@ -352,13 +352,20 @@ function updateLink(linkElement, obj) {
 
 /***/ }),
 
-/***/ 713:
+/***/ 722:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(441);
+module.exports = __webpack_require__.p + "overlay-pic.7d16540261368d8e2169.jpg";
+
+/***/ }),
+
+/***/ 726:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(446);
 
 
 /***/ })
 
-},[713]);
+},[726]);
 //# sourceMappingURL=styles.bundle.js.map
